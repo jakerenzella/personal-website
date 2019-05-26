@@ -4,7 +4,7 @@ title: >-
   SplashKit: A Development Framework for Motivating and Engaging Students in
   Introductory Programming
 slug: /posts/motivating-engaging-students
-draft: true
+draft: false
 date: 2018-12-04T09:51:00.000Z
 description: >-
   SplashKit is an educationally focused development framework designed to aid
