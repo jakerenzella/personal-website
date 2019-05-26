@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'jakerenzella.com',
   title: 'Jake Renzella',
   subtitle: 'Personal website for publications, blog posts and work',
   copyright: '© All rights reserved.',
@@ -14,10 +14,6 @@ module.exports = {
       path: '/'
     },
     {
-      label: 'Publications',
-      path: '/publications'
-    },
-    {
       label: 'About me',
       path: '/pages/about'
     }
@@ -28,7 +24,7 @@ module.exports = {
     bio: 'PhD Researcher, Software Engineer.',
     contacts: {
       email: 'j@kerenzella.com',
-      twitter: '#',
+      linkedin: 'jakerenzella',
       github: 'jakerenzella'
     }
   }

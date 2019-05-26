@@ -30,7 +30,7 @@ const useSiteMetadata = () => {
                 soundcloud
 =======
                 email
-                twitter
+                linkedin
                 github
 >>>>>>> NEW: Basic site changes
               }
