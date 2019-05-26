@@ -10,7 +10,11 @@ description: >-
   SplashKit is an educationally focused development framework designed to aid
   the teaching of programming by empowering students to create interesting and
   dynamic programs from their first programming tasks.
-category: 'Publications, SplashKit, Introductory Programming'
+category: 'Publications, SplashKit'
+tags:
+  - Computer Science Education
+  - SplashKit
+  - Introductory Prigramming
 ---
 Learning to program is known to be challenging for many students.
 
