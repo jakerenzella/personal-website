@@ -3,7 +3,7 @@ template: post
 title: Supporting Better Formative Feedback in Task-Oriented Portfolio Assessment
 slug: /posts/better-formative-feedback/
 draft: false
-date: 2019-05-26T08:04:44.567Z
+date: 2017-12-12T07:04:00.000Z
 description: >-
   In this paper, we reflect upon the use of task-oriented portfolio assessment
   in supporting introductory programming units and propose some methods to
@@ -22,6 +22,6 @@ In this paper, we reflect upon the use of task-oriented portfolio assessment in 
 Furthermore, we explore how the Doubtfire Learning Management system is currently supporting this approach, and provide prospective improvements & research for such systems.
 
 
-View the paper on [IEEE](https://ieeexplore.ieee.org/abstract/document/8252362)
+View the paper on [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/8252362).
 
 ![Nulla faucibus vestibulum eros in tempus. Vestibulum tempor imperdiet velit nec dapibus](/media/image-2.jpg)
