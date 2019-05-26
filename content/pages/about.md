@@ -1,13 +1,26 @@
 ---
-title: "About me"
-template: "page"
-socialImage: "/media/image-2.jpg"
+template: page
+title: About me
+slug: /pages/about
+draft: false
 ---
+## Education
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+### Bachelor of Science (Computer Science)
+[Swinburne University](https://www.swinburne.edu.au/)/[University of Leicester](https://le.ac.uk/)
 
-![Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.](/media/image-2.jpg)
+### Bachelor of Information Technology (Honours)
+[Deakin University](https://www.deakin.edu.au/)
 
-*Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.*
+### Doctor of Philosophy (Information Technology)
+[Deakin University](https://www.deakin.edu.au/)
 
-Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+## Work
+* Software Engineer at the Applied Institute of Artificial Intelligence
+* Teaching at Deakin, Swinburne
+
+## Open Source Contributions
+* [Doubtfire](https://github.com/doubtfire-lms/)
+* [SplashKit](https://github.com/splashkit/)
+
+
