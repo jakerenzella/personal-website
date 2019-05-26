@@ -33,6 +33,10 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
     <Layout title={pageTitle} description={siteSubtitle}>
       <Sidebar isIndex />
       <Page>
+        <h2>Welcome</h2>
+        <p>I'm a PhD Candidate at Deakin University, researching how Artifical Intelligence driven agents can have a positive impact on teaching and learning systems.</p>
+        <p>I am a full-stack software engineer, working on projects like Doubtfire, SplashKit and, Artificial Intelligence Pipelines for A<sup>2</sup>I<sup>2</sup>.</p>
+        <p>My publications and blog posts are below, and feel free to <a href="/pages/about">learn more and get in touch!</a></p>
         <Feed edges={edges} />
         <Pagination
           prevPagePath={prevPagePath}
