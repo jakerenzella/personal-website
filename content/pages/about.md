@@ -4,23 +4,12 @@ title: About me
 slug: /pages/about
 draft: false
 ---
-## Education
+Studied Bachelor of Science (Computer Science) @ [Swinburne University](https://www.swinburne.edu.au/) & [University of Leicester](https://le.ac.uk/), then a Bachelor of Information Technology (Honours) @
+[Deakin University](https://www.deakin.edu.au/). Now completing a Doctor of Philosophy (Information Technology)
+[Deakin University](https://www.deakin.edu.au/).
 
-### Bachelor of Science (Computer Science)
-[Swinburne University](https://www.swinburne.edu.au/)/[University of Leicester](https://le.ac.uk/)
+Software Engineer at the [Applied Institute of Artificial Intelligence](https://a2i2.deakin.edu.au/), programming undergraduate/masters teacher at Deakin and Swinburne.
 
-### Bachelor of Information Technology (Honours)
-[Deakin University](https://www.deakin.edu.au/)
-
-### Doctor of Philosophy (Information Technology)
-[Deakin University](https://www.deakin.edu.au/)
-
-## Work
-* Software Engineer at the Applied Institute of Artificial Intelligence
-* Teaching at Deakin, Swinburne
-
-## Open Source Contributions
-* [Doubtfire](https://github.com/doubtfire-lms/)
-* [SplashKit](https://github.com/splashkit/)
+Open Source Contributions to [Doubtfire](https://github.com/doubtfire-lms/) and [SplashKit](https://github.com/splashkit/).
 
 
