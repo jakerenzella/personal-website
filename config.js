@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'jakerenzella.com',
+  url: 'https://www.jakerenzella.com/',
   title: 'Jake Renzella',
   subtitle: 'Personal website for publications, blog posts and work',
   copyright: '© All rights reserved.',
