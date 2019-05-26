@@ -14,7 +14,7 @@ category: 'Publications, SplashKit'
 tags:
   - Computer Science Education
   - SplashKit
-  - Introductory Prigramming
+  - Introductory Programming
 ---
 Learning to program is known to be challenging for many students.
 
