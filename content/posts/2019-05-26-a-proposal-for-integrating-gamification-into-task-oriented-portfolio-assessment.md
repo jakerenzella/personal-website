@@ -21,3 +21,5 @@ Gamification is the application of game mechanics and concepts outside the conte
 Implementing gamification elements (such as points, badges and leaderboards) increases motivation and engagement with a system, however, this is hypothesised to be merely a novelty effect that shifts existing intrinsic motivations to extrinsic ones. Providing a context for this research is the Doubtfire Learning Management System (LMS), which implements task-oriented portfolio assessment and ideologies that parallel those of gamification via unit task design and encouraging a feedback loop to students.
 
 Upon extensive analysis of gamification literature, we propose how certain gamification components could be implemented into the LMS to increase student engagement and motivation further.
+
+This paper can be found at [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/8615174).
