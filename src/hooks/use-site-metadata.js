@@ -12,6 +12,7 @@ const useSiteMetadata = () => {
               bio
               photo
               contacts {
+<<<<<<< HEAD
                 facebook
                 linkedin
                 github
@@ -27,6 +28,11 @@ const useSiteMetadata = () => {
                 codepen
                 youtube
                 soundcloud
+=======
+                email
+                twitter
+                github
+>>>>>>> NEW: Basic site changes
               }
             }
             menu {
