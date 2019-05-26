@@ -14,4 +14,6 @@ Software Engineer at the [Applied Institute of Artificial Intelligence (A²I²)]
 
 View my Open Source projects on Github for [Doubtfire](https://github.com/doubtfire-lms/) and [SplashKit](https://github.com/splashkit/).
 
+If you want to get in contact, the best way is via email at [j@kerenzella.com](mailto:j@kerenzella.com).
+
 
