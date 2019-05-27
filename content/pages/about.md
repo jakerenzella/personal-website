@@ -17,5 +17,3 @@ My current favourite technologies are <img style='vertical-align:middle; display
 View my Open Source projects on Github for [Doubtfire](https://github.com/doubtfire-lms/) and [SplashKit](https://github.com/splashkit/).
 
 If you want to get in contact, the best way is via email at [j@kerenzella.com](mailto:j@kerenzella.com).
-
-
