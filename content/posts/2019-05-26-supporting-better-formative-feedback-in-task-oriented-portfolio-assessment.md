@@ -24,4 +24,4 @@ Furthermore, we explore how the Doubtfire Learning Management system is currentl
 
 View the paper on [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/8252362).
 
-![Nulla faucibus vestibulum eros in tempus. Vestibulum tempor imperdiet velit nec dapibus](/media/image-2.jpg)
+![](/media/image-2.jpg)
