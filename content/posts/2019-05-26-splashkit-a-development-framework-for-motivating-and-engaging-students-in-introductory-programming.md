@@ -24,4 +24,4 @@ Lowering the barriers to entry will help ease students into programming and enab
 
 SplashKit is an educationally focused development framework designed to aid the teaching of programming by empowering students to create interesting and dynamic programs from their first programming tasks. This paper explores how SplashKit can be used in tertiary education to underpin a range of introductory programming approaches.
 
-The paper can be found at [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/8615203), and you can learn more about SplashKit at [splashkit.io](www.splashkit.io).
+The paper can be found at [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/8615203), and you can learn more about SplashKit at [splashkit.io](https:/www.splashkit.io).
