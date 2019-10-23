@@ -2,7 +2,7 @@
 template: post
 title: 'Go-Go: Fast Development Environment Context Switching'
 slug: go-go
-draft: true
+draft: false
 date: 2019-10-23T04:33:26.388Z
 description: >-
   Switching projects is a point of friction. Booting up multiple backends and
