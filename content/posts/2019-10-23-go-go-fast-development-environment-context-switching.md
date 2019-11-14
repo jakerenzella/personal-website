@@ -29,7 +29,7 @@ What I want to do, is go from an empty terminal, to something like this:
 
 ![](/media/go-go/go-go.png)
 
-With as little steps as possible.
+With as few steps as possible.
 
 ## Enter [Go-Go](https://github.com/jakerenzella/go-go)
 
