@@ -10,7 +10,7 @@ description: >-
   Upon extensive analysis of gamification literature, we propose how certain
   gamification components could be implemented into the LMS to increase student
   engagement and motivation further.
-category: Publications
+category: publications
 tags:
   - Doubtfire
   - Gamification

@@ -8,7 +8,7 @@ description: >-
   Pleased that the paper titled "Enriching Programming Student Feedback with
   Audio Comments" has been accepted to the 42nd International Conference on
   Software Engineering, Software Engineering Education and Training track.
-category: Publications
+category: publications
 tags:
   - publications
   - audio feedback

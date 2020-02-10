@@ -14,10 +14,10 @@ description: >-
   Go-Go is a simple set of scripts which can define tmux workspaces for
   individual projects, as well as define a set of commands to be executed in
   each terminal.
-category: 'Productivity, Software'
+category: 'productivity, software'
 tags:
-  - Productivity
-  - Software
+  - productivity
+  - software
 ---
 My day to day usually consists of working on my PhD project, working part time as a Software Engineer, or contributing to open-source projects. Ideally (and on paper) I have set days for each, however I often find myself switching between development projects multiple times a day.
 
