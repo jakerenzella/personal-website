@@ -3,7 +3,11 @@ template: post
 title: >-
   A Proposal for Integrating Gamification into Task-Oriented Portfolio
   Assessment
+<<<<<<< HEAD
 slug: gamification-proposal
+=======
+slug: /posts/gamification-proposal
+>>>>>>> 0a78b74810ed9f9da064f3250603c4e3348f9aa3
 draft: false
 date: 2018-05-26T10:57:00.000Z
 description: >-

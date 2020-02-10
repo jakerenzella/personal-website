@@ -1,8 +1,13 @@
 ---
 template: page
 title: About me
+<<<<<<< HEAD
 draft: false
 socialImage: 'photo.png'
+=======
+slug: /pages/about
+draft: false
+>>>>>>> 0a78b74810ed9f9da064f3250603c4e3348f9aa3
 ---
 Completed a Bachelor of Science (Computer Science) at [Swinburne University](https://www.swinburne.edu.au/) & [University of Leicester](https://le.ac.uk/), then a Bachelor of Information Technology (Honours) at
 [Deakin University](https://www.deakin.edu.au/).
