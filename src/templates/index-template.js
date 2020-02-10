@@ -36,7 +36,7 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
         <h2>Welcome</h2>
         <p>I'm a PhD Candidate at Deakin University, researching how Artifical Intelligence driven agents can have a positive impact on teaching and learning systems.</p>
         <p>I am a full-stack software engineer, working on projects like Doubtfire, SplashKit and, Artificial Intelligence Pipelines for <a href="https://a2i2.deakin.edu.au/">A<sup>2</sup>I<sup>2</sup>.</a></p>
-        <p>My publications and blog posts are below, and feel free to <a href="/pages/about">learn more and get in touch!</a></p>
+        <p>You can download my resume by <a href="/media/resume_master.pdf" target="_blank">clicking here</a>, and view my <a href="/pages/about">about me</a> page to see how to get in touch. My publications and blog posts are below. </p>
         <Feed edges={edges} />
         <Pagination
           prevPagePath={prevPagePath}

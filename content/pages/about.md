@@ -16,4 +16,4 @@ My current favourite technologies are <img style='vertical-align:middle; display
 
 I'm a hobbyist violinist 🎻 at AMEB grade 7 standard.
 
-If you want to get in contact, the best way is via email at [j@kerenzella.com](mailto:j@kerenzella.com).
+If you want to get in contact, the best way is via email at [j@kerenzella.com](mailto:j@kerenzella.com), and you can download my resume by clicking [here](/media/resume_master.pdf).
