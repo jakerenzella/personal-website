@@ -12,27 +12,9 @@ const useSiteMetadata = () => {
               bio
               photo
               contacts {
-<<<<<<< HEAD
-                facebook
-                linkedin
-                github
-                twitter
-                telegram
-                instagram
-                email
-                rss
-                vkontakte
-                line
-                gitlab
-                weibo
-                codepen
-                youtube
-                soundcloud
-=======
                 email
                 linkedin
                 github
->>>>>>> NEW: Basic site changes
               }
             }
             menu {

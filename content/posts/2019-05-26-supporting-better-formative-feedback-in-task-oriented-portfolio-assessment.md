@@ -1,7 +1,7 @@
 ---
 template: post
 title: Supporting Better Formative Feedback in Task-Oriented Portfolio Assessment
-slug: /posts/better-formative-feedback/
+slug: better-formative-feedback
 draft: false
 date: 2017-12-12T07:04:00.000Z
 description: >-

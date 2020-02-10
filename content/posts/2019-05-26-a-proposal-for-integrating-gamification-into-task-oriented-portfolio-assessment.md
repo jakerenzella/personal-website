@@ -3,7 +3,7 @@ template: post
 title: >-
   A Proposal for Integrating Gamification into Task-Oriented Portfolio
   Assessment
-slug: /posts/gamification-proposal
+slug: gamification-proposal
 draft: false
 date: 2018-05-26T10:57:00.000Z
 description: >-

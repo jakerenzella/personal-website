@@ -3,7 +3,7 @@ template: post
 title: >-
   SplashKit: A Development Framework for Motivating and Engaging Students in
   Introductory Programming
-slug: /posts/motivating-engaging-students
+slug: motivating-engaging-students
 draft: false
 date: 2018-12-04T09:51:00.000Z
 description: >-
