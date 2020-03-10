@@ -205,4 +205,4 @@ The last thing we need to do is get the selected emoji into the DOM. For this, w
 Add some styling and we're done!
 Final product: ![](./emoji.gif)
 
-The full source code for these components can be found on the [Doubtfire repo](https://github.com/doubtfire-lms/doubtfire-web/tree/development/src/app/tasks/task-comment-composer).
+The full source code for these components can be found on the [Doubtfire repo](https://github.com/jakerenzella/doubtfire-web/tree/enhance/add-emoji/src/app/tasks/task-comment-composer).
