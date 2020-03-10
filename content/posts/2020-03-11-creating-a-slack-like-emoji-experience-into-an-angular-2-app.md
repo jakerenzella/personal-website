@@ -103,7 +103,7 @@ Any time a key is pressed down in the field, the keyTyped method will fire, and 
 
 How I solved this is problem was to search for a substring from the entire input text, from the position of the caret (cursor), back to the first colon character `:` that is found.
 
-~[](./emoji-diagram.png)
+![](./emoji-diagram.png)
 
 The following is the method for doing this, and I have described most of the key lines:
 
