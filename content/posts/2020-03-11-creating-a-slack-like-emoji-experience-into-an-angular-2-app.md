@@ -10,7 +10,9 @@ description: >-
   difficult.
 category: software
 tags:
-  - emoji angular slack
+  - emoji
+  - angular
+  - slack
 ---
 
 I have wanted to build an extensive, and user-friendly Emoji picker into [Doubtfire](github.com/doubtfire-lms) for a long time, so that our students and teachers can easily search for, and send emoji to each other. Here's how I did it.
