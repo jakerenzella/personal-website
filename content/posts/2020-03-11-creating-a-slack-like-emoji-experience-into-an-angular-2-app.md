@@ -19,7 +19,7 @@ Firstly, we're not _building_ and entire emoji picker system, just _integrating_
 
 Getting the library installed and showing itself isn't difficult, but I also wanted to to integrate a Slack-like inline emoji selector using the Colon key `:`.
 
-Final product: ![](/media/emoji/emoji.png)
+Final product: ![](./emoji.png)
 
 We're starting off by using the awesome Angular emoji picker library developed by [ngx-emoji-mart](https://github.com/TypeCtrl/ngx-emoji-mart#headless-search)
 
@@ -195,6 +195,6 @@ The last thing we need to do is get the resulting emoji into the DOM. For this, 
 ```
 
 Add some styling and we're done!
-Final product: ![](/media/emoji/emoji.gif)
+Final product: ![](./emoji.gif)
 
 The full source code for these components can be found on the [Doubtfire repo](https://github.com/doubtfire-lms/doubtfire-web/tree/development/src/app/tasks/task-comment-composer).
