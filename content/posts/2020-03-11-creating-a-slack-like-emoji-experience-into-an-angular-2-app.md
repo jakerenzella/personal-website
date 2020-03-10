@@ -1,6 +1,6 @@
 ---
 template: post
-title: Creating a Slack-like emoji experience in an Angular 2+ app
+title: Creating a Slack-like emoji search experience in an Angular 2+ app
 slug: emoji
 draft: false
 date: 2020-03-10T13:42:26.370Z
