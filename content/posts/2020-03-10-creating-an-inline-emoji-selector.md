@@ -5,21 +5,22 @@ slug: emojis
 draft: false
 date: 2020-03-10T02:14:33.396Z
 description: >-
+Integrating a user-friendly emoji search system into your Angular app may seem trivial at first glance, but supporting a Slack-like colon selector (:) proves difficult.
 
-category: software
+category: 'software'
 tags:
-  - softwre
+  - software
   - angular
   - emoji pickers
 ---
 
-We have wanted to build an extensive, and user-friendly Emoji picker into [Doubtfire](github.com/doubtfire-lms) for a long time.
+I have wanted to build an extensive, and user-friendly Emoji picker into [Doubtfire](github.com/doubtfire-lms) for a long time, so that our students and teachers can easily search for, and send emoji to each other. Here's how I did it.
 
-Here's how I did it.
+Firstly, we're not _building_ and entire emoji picker system, just _integrating_ one into an existing chat element. This task alone took more than enough time. The library we will use sports a great graphical interface for searching and picking emojis.
 
-Firstly, we're not _building_ and entire emoji picker system, just _integrating_ one, and this task alone took more than enough time. The library we will use sports a great graphical interface for searching and picking emojis. Getting the library installed and showing itself isn't difficult, but I also wanted to to integrate a Slack-like inline emoji selector using the Colon key `:`.
+Getting the library installed and showing itself isn't difficult, but I also wanted to to integrate a Slack-like inline emoji selector using the Colon key `:`.
 
-Final product: ![](/media/emoji.gif)
+Final product: ![](/media/emoji/emoji.png)
 
 We're starting off by using the awesome Angular emoji picker library developed by [ngx-emoji-mart](https://github.com/TypeCtrl/ngx-emoji-mart#headless-search)
 
@@ -73,9 +74,11 @@ addEmoji(e: Event) { this.input.first.nativeElement.innerText += e.emoji.native
 
 ---
 
-Really, you could stop here. This level of integration alone will introduce a nice way for users to search and input emojis into your input fields, however the real meat of this post is to introduce a Slack-like colon selector system for the headless emoji search.
+You will need to style and place the element according to your environment, but really, you could stop here. This level of integration alone will introduce a nice way for users to search and input emojis into your input fields, however the real meat of this post is to introduce a Slack-like colon selector system for the headless emoji search.
 
 I am sure there are many, many better ways of achieving this, but at a cursary glance I could find much, it would be great to see Slack's implementation. So how do we do this?
+
+At first glance this might not seem difficult, you wait until the user types `:` into your app and pop up the emoji list right? But how do you know which text to use as the search term? And what if there are multiple `:`s in the text? and what if the user is actually typing code into your markdown editor and the last thing they want to see is an emoji selector! You might be getting a sense of some of the things we need to consider.
 
 Note: our chat-input element is actually a content-editable div. There are many benefits for using a div over a traditional input field if you're looking to heavily customize the behaviour.
 
@@ -95,7 +98,7 @@ The first thing we need to do is start watching for any key press in the input f
 
 Any time a key is pressed down in the field, the keyTyped method will fire, and here's where things start to get... involved.
 
-What we want is to get the substring from the input field, from the point of the carot (cursor) position, back to the first colon character `:`. The following is the method for doing this, and I have commented out most of the steps:
+How I solved this is searching for a substring from the input text, from the position of the carot (cursor), back to the first colon character `:` that is found. The following is the method for doing this, and I have described most of the key lines:
 
 ```ts
 keyTyped(e: KeyboardEvent) {
@@ -142,7 +145,7 @@ The method above uses a regular expression to determine if it should be searchin
 
 `/(?<=\:)(.*?)(?=\:|$)/` matches the content after a `:` and before a `:` or the end of a line.
 
-The method for finding the caretOffset (thanks to stackoverflow for this one, although I couldn't find the exact author.)
+Here is the method for finding the caretOffset (thanks to stackoverflow for this one, although I couldn't find the exact author.)
 ```ts
 private caretOffset() {
     let element = this.input.first.nativeElement;
@@ -170,7 +173,7 @@ private caretOffset() {
   }
 ```
 
-The final part of the typescript puzzle is inserting the emoji into the text at the correct position. Here we will use the most recent match preceeded by a colon as the replacement substring:
+The final part of the javascript puzzle is inserting the emoji into the text at the correct position. At first I was simply appending the emoji, but I found that if the user were to write a message and want to add an emoji previously, it would fail. Here we will use the most recent match preceeded by a colon as the replacement substring condition:
 
 ```ts
 emojiSelected(emoji: string) {
@@ -179,7 +182,7 @@ emojiSelected(emoji: string) {
 }
 ```
 
-The last thing we need to do is get the searched emoji into the dom. For this, we will use a mat-action-list, binding to the `emojiSearchResults` array. The reversal of the array puts the closest results to the search term at the bottom of the list (closer to the input field).
+The last thing we need to do is get the resulting emoji into the DOM. For this, we will use a mat-action-list, binding to the `emojiSearchResults` array. The reversal of the array puts the closest results to the search term at the bottom of the list (closer to the input field).
 
 ```html
 <mat-action-list [hidden]="!emojiSearchMode" dense id="emojiSearchResults">
@@ -193,6 +196,6 @@ The last thing we need to do is get the searched emoji into the dom. For this, w
 ```
 
 Add some styling and we're done!
-Final product: ![](/media/emoji.gif)
+Final product: ![](/media/emoji/emoji.gif)
 
 The full source code for these components can be found on the [Doubtfire repo](https://github.com/doubtfire-lms/doubtfire-web/tree/development/src/app/tasks/task-comment-composer).
