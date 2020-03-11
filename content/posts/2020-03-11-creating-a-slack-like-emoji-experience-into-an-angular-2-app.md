@@ -68,7 +68,7 @@ We have bound the `hidden` attribute to a boolean (declared in the ts file), and
 
 You can see the mat-icon when clicked will toggle the showEmojiPicker boolean.
 
-The final part of this puzzle is to insert the selected emoji into the input/contenteditable field. The hand `(emojiClick)="addEmoji($event)"` nicely handles this for us. Our method simple injects the emoji from the event into our string, something like:
+The final part of this puzzle is to insert the selected emoji into the input/contenteditable field. The handy: `(emojiClick)="addEmoji($event)"` provides a simple method to do so. Our addEmoji simple injects the emoji from the event into our string, something like:
 
 ```html
 addEmoji(e: Event) { this.input.first.nativeElement.innerText += e.emoji.native
