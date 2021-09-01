@@ -1,23 +1,27 @@
 import React from "react"
 
-function MyLink({ linkTitle, linkUrl }) {
+import { StaticImage } from "gatsby-plugin-image"
+
+function MyLink({ linkData }) {
     return (
         <a
-            href={linkUrl}
+            href={linkData.linkUrl}
             target="_blank"
             className="bg-indigo-600 flex text-base"
-            style={{width: `100%`, height:`56px`, alignItems: `center`, justifyContent: `center`, color: `white`, fontFamily: `monospace`}}>
-            <svg
-                style={{marginLeft: `20px`}}
-                className="flex-none w-6 h-6 fill-current"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-            >
-                <title>Menu</title>
-                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-            </svg>
+            style={{ width: `100%`, height: `56px`, alignItems: `center`, justifyContent: `center`, color: `white`, fontFamily: `monospace` }}>
 
-            <p style={{width: `100%`, marginLeft: `-45px`}} className="" >{linkTitle}</p>
+            <StaticImage
+                className="flex-none w-6 h-6 fill-current ml-7"
+                style={{ borderRadius: `50%` }}
+                src="../images/icons/logo-github.svg"
+                alt="Jake Renzella headshot"
+                placeholder="blurred"
+                layout="fixed"
+                width={20}
+                height={20}
+            />
+
+            <p style={{ width: `100%`, marginLeft: `-45px` }} className="" >{linkData.linkTitle}</p>
         </a>
     )
 }

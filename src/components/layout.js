@@ -57,24 +57,29 @@ const Layout = ({ children }) => {
               <h1 className="my-2 px-2 w-full overflow-hidden">Jake Renzella</h1>
               <p className="my-2 px-2 w-full overflow-hidden">Lecturer at UNSW</p>
 
-              <h1 className="my-2 px-2 w-full overflow-hidden">Socials</h1>
+              <h1 className="mt-8 my-2 px-2 w-full overflow-hidden">Socials</h1>
               {LinkData.Socials.map((data, index) => {
-                return <div className="my-2 px-2 w-full overflow-hidden"><MyLink linkTitle={data.linkTitle} linkUrl={data.linkURL} /></div>
+                return <div className="my-2 px-2 w-full overflow-hidden"><MyLink linkData={data} /></div>
               })}
 
-              <h1 className="my-2 px-2 w-full overflow-hidden">Education</h1>
-              {LinkData.Socials.map((data, index) => {
-                return <div className="my-2 px-2 w-full overflow-hidden"><MyLink linkTitle={data.linkTitle} linkUrl={data.linkURL} /></div>
+              <h1 className="mt-8 my-2 px-2 w-full overflow-hidden">UNSW Teaching</h1>
+              {LinkData.Teaching.map((data, index) => {
+                return <div className="my-2 px-2 w-full overflow-hidden"><MyLink linkData={data} /></div>
               })}
 
-              <h1 className="my-2 px-2 w-full overflow-hidden">Academic</h1>
-              {LinkData.Socials.map((data, index) => {
-                return <div className="my-2 px-2 w-full overflow-hidden"><MyLink linkTitle={data.linkTitle} linkUrl={data.linkURL} /></div>
+              <h1 className="mt-8 my-2 px-2 w-full overflow-hidden">Education</h1>
+              {LinkData.Education.map((data, index) => {
+                return <div className="my-2 px-2 w-full overflow-hidden"><MyLink linkData={data} /></div>
               })}
 
-              <h1 className="my-2 px-2 w-full overflow-hidden">Development</h1>
-              {LinkData.Socials.map((data, index) => {
-                return <div className="my-2 px-2 w-full overflow-hidden"><MyLink linkTitle={data.linkTitle} linkUrl={data.linkURL} /></div>
+              <h1 className="mt-8 my-2 px-2 w-full overflow-hidden">Academic</h1>
+              {LinkData.Academic.map((data, index) => {
+                return <div className="my-2 px-2 w-full overflow-hidden"><MyLink linkData={data} /></div>
+              })}
+
+              <h1 className="mt-8 my-2 px-2 w-full overflow-hidden">Development</h1>
+              {LinkData.Development.map((data, index) => {
+                return <div className="my-2 px-2 w-full overflow-hidden"><MyLink linkData={data} /></div>
               })}
             </div>
           </main>

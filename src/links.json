@@ -1,38 +1,53 @@
 {
     "Socials": [
         {
-            "linkTitle": "GitHub",
-            "linkURL": "https://github.com/jakerenzella"
+            "linkTitle": "LinkedIn",
+            "linkURL": "https://www.linkedin.com/in/jakerenzella/"
         },
         {
             "linkTitle": "Twitter",
             "linkURL": "https://twitter.com/JakeRenzella"
         }
     ],
-
+    "Teaching": [
+        {
+            "linkTitle": "COMP1531",
+            "linkURL": "https://webcms3.cse.unsw.edu.au/COMP1531/21T3/"
+        }
+    ],
+    "Education": [
+        {
+            "linkTitle": "Doubtfire (OnTrack)",
+            "linkURL": "https://doubtfire.io"
+        },
+        {
+            "linkTitle": "The Burndown (Doubtfire Blog)",
+            "linkURL": "https://blog.doubtfire.io"
+        },
+        {
+            "linkTitle": "SplashKit",
+            "linkURL": "http://splashkit.io"
+        }
+    ],
     "Development": [
         {
             "linkTitle": "GitHub",
-            "linkURL": "https://github.com/jakerenzella"
-        },
-        {
-            "linkTitle": "Twitter",
-            "linkURL": "https://twitter.com/JakeRenzella"
+            "linkURL": "https://github.com/jakerenzella",
+            "svgName": "logo-github"
         }
     ],
-
     "Academic": [
         {
             "linkTitle": "UNSW Researcher Profile",
-            "linkURL": "https://github.com/jakerenzella"
+            "linkURL": "https://research.unsw.edu.au/people/mr-jake-renzella"
         },
         {
             "linkTitle": "Google Scholar",
-            "linkURL": "https://github.com/jakerenzella"
+            "linkURL": "https://scholar.google.com.au/citations?hl=en&user=l_sP9GcAAAAJ"
         },
         {
-            "linkTitle": "Twitter",
-            "linkURL": "https://twitter.com/JakeRenzella"
+            "linkTitle": "ResearchGate",
+            "linkURL": "https://www.researchgate.net/profile/Jake-Renzella"
         }
     ]
 }
