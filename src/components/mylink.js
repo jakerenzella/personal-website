@@ -5,6 +5,7 @@ function MyLink({ linkData }) {
   return (
     <a
       href={linkData.linkURL}
+      rel="noreferrer"
       target="_blank"
       className="
       flex text-base text-white dark:text-black
