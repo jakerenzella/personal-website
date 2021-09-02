@@ -22,7 +22,7 @@ function MyLink({ linkData }) {
         width="28"
         height="28"
         className="flex-none ml-6" />
-      <p style={{ width: `100%`, marginLeft: `-50px` }} className="" >{linkData.linkTitle}</p>
+      <p style={{ width: `100%`, marginLeft: `-48px` }} className="" >{linkData.linkTitle}</p>
     </a>
   )
 }

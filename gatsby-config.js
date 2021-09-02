@@ -5,7 +5,7 @@ module.exports = {
     author: `@jakerenzella`,
   },
   flags: {
-    // THE_FLAG: false
+    THE_FLAG: true
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

@@ -9,18 +9,19 @@ import MyLink from "./mylink"
 const Layout = ({ children }) => {
   return (
     <>
-      <div className='bg-white dark:bg-gray-800'>
+      <div className='bg-white dark:bg-gray-800 flex'>
         <div
-          className='items-center bg-white dark:bg-gray-800'
+          className='items-center dark:bg-gray-800 w-full'
           style={{
             maxWidth: `680px`,
+            padding: `24px 12px`,
             margin: `0px auto 0 auto`,
             textAlign: `center`,
             alignItems: `center`,
           }}
         >
           <main>{children}
-            <div className='flex flex-wrap -mx-2 overflow-hidden '
+            <div className='flex flex-wrap -mx-2 overflow-hidden'
               style={{
                 alignItems: `center`,
                 justifyContent: `center`,
