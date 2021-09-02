@@ -1,6 +1,6 @@
 // tailwind.config.js
 module.exports = {
-  // darkMode: 'media',
+  darkMode: 'media',
   future: {},
 <<<<<<< HEAD
   content: [
@@ -13,6 +13,7 @@ module.exports = {
     fontFamily: {
       'sans': 'monospace'
     },
+    extend: {}
   },
   variants: {},
   plugins: [],

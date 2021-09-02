@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
           className='items-center bg-white dark:bg-gray-800'
           style={{
             maxWidth: `680px`,
-            margin: `12px auto`,
+            margin: `0px auto 0 auto`,
             textAlign: `center`,
             alignItems: `center`,
           }}
@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
               style={{
                 alignItems: `center`,
                 justifyContent: `center`,
-                paddingTop: `12px`
+                paddingTop: `20px`
               }}>
               <StaticImage
                 style={{ borderRadius: `50%` }}
@@ -36,36 +36,36 @@ const Layout = ({ children }) => {
                 height={110}
               />
 
-              <h1 className="my-2 px-2 w-full overflow-hidden">Jake Renzella</h1>
-              <p className="my-2 px-2 w-full overflow-hidden">Lecturer at UNSW</p>
+              <h1 className="my-2 px-2 w-full overflow-hidden text-black dark:text-white">Jake Renzella</h1>
+              <p className="my-2 px-2 w-full overflow-hidden text-black dark:text-white">Lecturer at UNSW</p>
 
-              <h1 className="mt-8 my-2 px-2 w-full overflow-hidden">Socials</h1>
+              <h1 className="mt-8 my-2 px-2 w-full overflow-hidden text-black dark:text-white">Socials</h1>
               {LinkData.Socials.map((data, index) => {
-                return <div className="my-2 px-2 w-full overflow-hidden"><MyLink linkData={data} /></div>
+                return <div key={data.linkTitle} className="my-2 px-2 w-full overflow-hidden"><MyLink linkData={data} /></div>
               })}
 
-              <h1 className="mt-8 my-2 px-2 w-full overflow-hidden">UNSW Teaching</h1>
+              <h1 className="mt-8 my-2 px-2 w-full overflow-hidden text-black dark:text-white">UNSW Teaching</h1>
               {LinkData.Teaching.map((data, index) => {
-                return <div className="my-2 px-2 w-full overflow-hidden"><MyLink linkData={data} /></div>
+                return <div key={data.linkTitle} className="my-2 px-2 w-full overflow-hidden"><MyLink linkData={data} /></div>
               })}
 
-              <h1 className="mt-8 my-2 px-2 w-full overflow-hidden">Education</h1>
+              <h1 className="mt-8 my-2 px-2 w-full overflow-hidden text-black dark:text-white">Education</h1>
               {LinkData.Education.map((data, index) => {
-                return <div className="my-2 px-2 w-full overflow-hidden"><MyLink linkData={data} /></div>
+                return <div key={data.linkTitle} className="my-2 px-2 w-full overflow-hidden"><MyLink linkData={data} /></div>
               })}
 
-              <h1 className="mt-8 my-2 px-2 w-full overflow-hidden">Academic</h1>
+              <h1 className="mt-8 my-2 px-2 w-full overflow-hidden text-black dark:text-white">Academic</h1>
               {LinkData.Academic.map((data, index) => {
-                return <div className="my-2 px-2 w-full overflow-hidden"><MyLink linkData={data} /></div>
+                return <div key={data.linkTitle} className="my-2 px-2 w-full overflow-hidden"><MyLink linkData={data} /></div>
               })}
 
-              <h1 className="mt-8 my-2 px-2 w-full overflow-hidden">Development</h1>
+              <h1 className="mt-8 my-2 px-2 w-full overflow-hidden text-black dark:text-white">Development</h1>
               {LinkData.Development.map((data, index) => {
-                return <div className="my-2 px-2 w-full overflow-hidden"><MyLink linkData={data} /></div>
+                return <div key={data.linkTitle} className="my-2 px-2 w-full overflow-hidden"><MyLink linkData={data} /></div>
               })}
             </div>
           </main>
-          <footer className="mt-4">
+          <footer className="pb-4 mt-4 text-black dark:text-white">
             Jake Renzella © {new Date().getFullYear()}
           </footer>
         </div>
