@@ -1,13 +1,5 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import "./layout.css"
@@ -15,16 +7,6 @@ import LinkData from "../links.json"
 import MyLink from "./mylink"
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
   return (
     <>
       <div className='bg-white dark:bg-gray-800'>
@@ -83,10 +65,8 @@ const Layout = ({ children }) => {
               })}
             </div>
           </main>
-          <footer>
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <footer className="mt-4">
+            Jake Renzella © {new Date().getFullYear()}
           </footer>
         </div>
       </div>

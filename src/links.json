@@ -2,52 +2,61 @@
     "Socials": [
         {
             "linkTitle": "LinkedIn",
-            "linkURL": "https://www.linkedin.com/in/jakerenzella/"
+            "linkURL": "https://www.linkedin.com/in/jakerenzella/",
+            "iconName": "mdi:linkedin"
         },
         {
             "linkTitle": "Twitter",
-            "linkURL": "https://twitter.com/JakeRenzella"
+            "linkURL": "https://twitter.com/JakeRenzella",
+            "iconName": "mdi:twitter"
         }
     ],
     "Teaching": [
         {
             "linkTitle": "COMP1531",
-            "linkURL": "https://webcms3.cse.unsw.edu.au/COMP1531/21T3/"
+            "linkURL": "https://webcms3.cse.unsw.edu.au/COMP1531/21T3/",
+            "iconName": "mdi:school"
         }
     ],
     "Education": [
         {
             "linkTitle": "Doubtfire (OnTrack)",
-            "linkURL": "https://doubtfire.io"
+            "linkURL": "https://doubtfire.io",
+            "iconName": "mdi-fire"
         },
         {
             "linkTitle": "The Burndown (Doubtfire Blog)",
-            "linkURL": "https://blog.doubtfire.io"
+            "linkURL": "https://blog.doubtfire.io",
+            "iconName": "mdi:post"
         },
         {
             "linkTitle": "SplashKit",
-            "linkURL": "http://splashkit.io"
+            "linkURL": "http://splashkit.io",
+            "iconName": "mdi:hand-water"
         }
     ],
     "Development": [
         {
             "linkTitle": "GitHub",
             "linkURL": "https://github.com/jakerenzella",
-            "svgName": "logo-github"
+            "iconName": "mdi:github"
         }
     ],
     "Academic": [
         {
             "linkTitle": "UNSW Researcher Profile",
-            "linkURL": "https://research.unsw.edu.au/people/mr-jake-renzella"
+            "linkURL": "https://research.unsw.edu.au/people/mr-jake-renzella",
+            "iconName": "la:university"
         },
         {
             "linkTitle": "Google Scholar",
-            "linkURL": "https://scholar.google.com.au/citations?hl=en&user=l_sP9GcAAAAJ"
+            "linkURL": "https://scholar.google.com.au/citations?hl=en&user=l_sP9GcAAAAJ",
+            "iconName": "simple-icons:googlescholar"
         },
         {
             "linkTitle": "ResearchGate",
-            "linkURL": "https://www.researchgate.net/profile/Jake-Renzella"
+            "linkURL": "https://www.researchgate.net/profile/Jake-Renzella",
+            "iconName": "simple-icons:researchgate"
         }
     ]
 }
