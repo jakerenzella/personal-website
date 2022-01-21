@@ -4,9 +4,6 @@ module.exports = {
     description: `Get up to speed on what Jake's up to.`,
     author: `@jakerenzella`,
   },
-  flags: {
-    THE_FLAG: true
-  },
   plugins: [
     `gatsby-plugin-react-helmet`,
     {

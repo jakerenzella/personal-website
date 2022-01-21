@@ -38,8 +38,8 @@ const Layout = ({ children }) => {
               />
 
               <h1 className="my-2 px-2 w-full overflow-hidden text-black dark:text-white">Jake Renzella</h1>
-              <p className="my-2 px-2 w-full overflow-hidden text-black dark:text-white">Lecturer at the Schoole of Computer Science and Engineering, UNSW Sydney.</p>
-              <p className="my-2 px-2 w-full overflow-hidden text-black dark:text-white">asd</p>
+              <p className="my-2 px-2 w-full overflow-hidden text-black dark:text-white">Lecturer in the School of Computer Science and Engineering, UNSW Sydney.</p>
+              <p className="my-2 px-2 w-full overflow-hidden text-black dark:text-white">Computer Science Education, EdTech, AI4EDU.</p>
 
               <h1 className="mt-8 my-2 px-2 w-full overflow-hidden text-black dark:text-white">Recent Paper</h1>
               {LinkData.Papers.map((data, index) => {
