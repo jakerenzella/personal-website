@@ -1,0 +1,38 @@
+{
+    "Socials": [
+        {
+            "linkTitle": "GitHub",
+            "linkURL": "https://github.com/jakerenzella"
+        },
+        {
+            "linkTitle": "Twitter",
+            "linkURL": "https://twitter.com/JakeRenzella"
+        }
+    ],
+
+    "Development": [
+        {
+            "linkTitle": "GitHub",
+            "linkURL": "https://github.com/jakerenzella"
+        },
+        {
+            "linkTitle": "Twitter",
+            "linkURL": "https://twitter.com/JakeRenzella"
+        }
+    ],
+
+    "Academic": [
+        {
+            "linkTitle": "UNSW Researcher Profile",
+            "linkURL": "https://github.com/jakerenzella"
+        },
+        {
+            "linkTitle": "Google Scholar",
+            "linkURL": "https://github.com/jakerenzella"
+        },
+        {
+            "linkTitle": "Twitter",
+            "linkURL": "https://twitter.com/JakeRenzella"
+        }
+    ]
+}
