@@ -38,10 +38,22 @@ const Layout = ({ children }) => {
               />
 
               <h1 className="my-2 px-2 w-full overflow-hidden text-black dark:text-white">Jake Renzella</h1>
-              <p className="my-2 px-2 w-full overflow-hidden text-black dark:text-white">Lecturer at UNSW</p>
+              <p className="my-2 px-2 w-full overflow-hidden text-black dark:text-white">Lecturer at the Schoole of Computer Science and Engineering, UNSW Sydney.</p>
+              <p className="my-2 px-2 w-full overflow-hidden text-black dark:text-white">asd</p>
+
+              <h1 className="mt-8 my-2 px-2 w-full overflow-hidden text-black dark:text-white">Recent Paper</h1>
+              {LinkData.Papers.map((data, index) => {
+                return <div key={data.linkTitle} className="my-2 px-2 w-full overflow-hidden"><MyLink linkData={data} /></div>
+              })}
+
 
               <h1 className="mt-8 my-2 px-2 w-full overflow-hidden text-black dark:text-white">Socials</h1>
               {LinkData.Socials.map((data, index) => {
+                return <div key={data.linkTitle} className="my-2 px-2 w-full overflow-hidden"><MyLink linkData={data} /></div>
+              })}
+
+              <h1 className="mt-8 my-2 px-2 w-full overflow-hidden text-black dark:text-white">Education Tools</h1>
+              {LinkData.Education.map((data, index) => {
                 return <div key={data.linkTitle} className="my-2 px-2 w-full overflow-hidden"><MyLink linkData={data} /></div>
               })}
 
@@ -50,10 +62,7 @@ const Layout = ({ children }) => {
                 return <div key={data.linkTitle} className="my-2 px-2 w-full overflow-hidden"><MyLink linkData={data} /></div>
               })}
 
-              <h1 className="mt-8 my-2 px-2 w-full overflow-hidden text-black dark:text-white">Education</h1>
-              {LinkData.Education.map((data, index) => {
-                return <div key={data.linkTitle} className="my-2 px-2 w-full overflow-hidden"><MyLink linkData={data} /></div>
-              })}
+
 
               <h1 className="mt-8 my-2 px-2 w-full overflow-hidden text-black dark:text-white">Academic</h1>
               {LinkData.Academic.map((data, index) => {

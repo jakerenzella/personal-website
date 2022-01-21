@@ -15,7 +15,7 @@ function MyLink({ linkData }) {
       hover:bg-white border-2 hover:border-indigo-600 hover:text-indigo-600
       dark:hover:bg-transparent
       dark:hover:text-black dark:hover:border-indigo-200 dark:hover:text-indigo-200"
-      style={{ width: `100%`, height: `56px`, alignItems: `center`, justifyContent: `center` }}>
+      style={{ width: `100%`, height: `56px`, alignItems: `center`, justifyContent: `center`, borderRadius: '15px' }}>
 
       <Icon
         icon={linkData.iconName}
