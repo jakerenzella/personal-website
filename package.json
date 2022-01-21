@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "jakerenzella.com",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby and TailwindCSS",
+  "description": "jakerenzella.com",
   "version": "0.3.0",
-  "author": "Kostas Vrouvas <hello@kosvrouvas.com>",
+  "author": "Jake Renzella",
   "dependencies": {
     "autoprefixer": "^10.4.2",
     "gatsby": "^4.5.3",
