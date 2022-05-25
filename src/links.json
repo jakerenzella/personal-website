@@ -37,6 +37,11 @@
   ],
   "Teaching": [
     {
+      "linkTitle": "COMP1511",
+      "linkURL": "https://cgi.cse.unsw.edu.au/~cs1511/22T2/",
+      "iconName": "mdi:school"
+    },
+    {
       "linkTitle": "COMP1531",
       "linkURL": "https://webcms3.cse.unsw.edu.au/COMP1531/22T1/",
       "iconName": "mdi:school"

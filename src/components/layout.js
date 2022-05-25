@@ -41,7 +41,7 @@ const Layout = ({ children }) => {
               <p className="my-2 px-2 w-full overflow-hidden text-black dark:text-white">Lecturer in the School of Computer Science and Engineering, UNSW Sydney.</p>
               <p className="my-2 px-2 w-full overflow-hidden text-black dark:text-white">Computer Science Education, EdTech, AI4EDU.</p>
 
-              <h1 className="mt-8 my-2 px-2 w-full overflow-hidden text-black dark:text-white">Recent Paper</h1>
+              <h1 className="mt-8 my-2 px-2 w-full overflow-hidden text-black dark:text-white">Recent Publication</h1>
               {LinkData.Papers.map((data, index) => {
                 return <div key={data.linkTitle} className="my-2 px-2 w-full overflow-hidden"><MyLink linkData={data} /></div>
               })}
