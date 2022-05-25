@@ -32,7 +32,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         trackingIds: [
-          "G-696728RVL7", // Google Analytics / GA
+          "G-MJ8LZ5ZYPT", // Google Analytics / GA
         ],
         // Avoids sending pageview hits from custom paths
         exclude: ["/preview/**", "/do-not-track/me/too/"],
@@ -45,7 +45,7 @@ module.exports = {
           // Avoids sending pageview hits from custom paths
           exclude: ["/preview/**", "/do-not-track/me/too/"],
           // Defaults to https://www.googletagmanager.com
-          origin: "jakerenzella.com",
+
         },
         // Delays sending pageview hits on route update (in milliseconds)
         // Enables Google Optimize using your container Id
