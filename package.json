@@ -6,7 +6,7 @@
   "author": "Jake Renzella",
   "dependencies": {
     "autoprefixer": "^10.4.2",
-    "gatsby": "^4.5.3",
+    "gatsby": "^4.24.0",
     "gatsby-plugin-google-gtag": "^4.15.0",
     "gatsby-plugin-image": "^2.5.2",
     "gatsby-plugin-manifest": "^4.5.2",
