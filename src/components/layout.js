@@ -41,6 +41,12 @@ const Layout = ({ children }) => {
               <p className="my-2 px-2 w-full overflow-hidden text-black dark:text-white">Lecturer in the School of Computer Science and Engineering, UNSW Sydney.</p>
               <p className="my-2 px-2 w-full overflow-hidden text-black dark:text-white">Computer Science Education, EdTech, AI4EDU.</p>
 
+              <h1 className="mt-8 mb-0 my-2 px-2 w-full overflow-hidden text-black dark:text-white">2022 Student Experience Teacher Report</h1>
+              <p className="italic my-2 px-2 w-full overflow-hidden text-black dark:text-white">Yes, read my entire 2022 UNSW teaching report - the good, the bad and the ugly.</p>
+              {LinkData.myExperience.map((data, index) => {
+                return <div key={data.linkTitle} className="my-2 px-2 w-full overflow-hidden"><MyLink linkData={data} /></div>
+              })}
+
               <h1 className="mt-8 my-2 px-2 w-full overflow-hidden text-black dark:text-white">Recent Publication</h1>
               {LinkData.Papers.map((data, index) => {
                 return <div key={data.linkTitle} className="my-2 px-2 w-full overflow-hidden"><MyLink linkData={data} /></div>
