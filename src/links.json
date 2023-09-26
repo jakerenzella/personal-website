@@ -1,7 +1,7 @@
 {
   "myExperience": [
     {
-      "linkTitle": "2022 myExperience Report",
+      "linkTitle": "UNSW Teaching myExperience Report",
       "linkURL": "https://github.com/jakerenzella/teacher-evaluation-reports/raw/master/unsw_22T2_TR.pdf",
       "iconName": "mdi:newspaper-variant"
     }
@@ -9,7 +9,7 @@
   "Papers": [
     {
       "linkTitle": "My recent publication",
-      "linkURL": "https://www.sciencedirect.com/science/article/pii/S2666920X21000382",
+      "linkURL": "https://dl.acm.org/doi/abs/10.1145/3545945.3569768",
       "iconName": "mdi:newspaper-variant"
     }
   ],
@@ -40,12 +40,12 @@
   "Teaching": [
     {
       "linkTitle": "COMP1511",
-      "linkURL": "https://cgi.cse.unsw.edu.au/~cs1511/22T2/",
+      "linkURL": "https://cgi.cse.unsw.edu.au/~cs1511/23T3/",
       "iconName": "mdi:school"
     },
     {
       "linkTitle": "COMP1531",
-      "linkURL": "https://webcms3.cse.unsw.edu.au/COMP1531/22T1/",
+      "linkURL": "https://webcms3.cse.unsw.edu.au/COMP1531/23T1/",
       "iconName": "mdi:school"
     }
   ],

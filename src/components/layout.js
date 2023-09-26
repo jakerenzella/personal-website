@@ -9,9 +9,9 @@ import MyLink from "./mylink"
 const Layout = ({ children }) => {
   return (
     <>
-      <div className='bg-white dark:bg-gray-800 flex'>
+      <div className="bg-white dark:bg-gray-800 flex">
         <div
-          className='items-center dark:bg-gray-800 w-full'
+          className="items-center dark:bg-gray-800 w-full"
           style={{
             maxWidth: `680px`,
             padding: `24px 12px`,
@@ -20,13 +20,16 @@ const Layout = ({ children }) => {
             alignItems: `center`,
           }}
         >
-          <main>{children}
-            <div className='flex flex-wrap -mx-2 overflow-hidden'
+          <main>
+            {children}
+            <div
+              className="flex flex-wrap -mx-2 overflow-hidden"
               style={{
                 alignItems: `center`,
                 justifyContent: `center`,
-                paddingTop: `20px`
-              }}>
+                paddingTop: `20px`,
+              }}
+            >
               <StaticImage
                 style={{ borderRadius: `50%` }}
                 src="../images/jake-photo.png"
@@ -37,47 +40,117 @@ const Layout = ({ children }) => {
                 height={110}
               />
 
-              <h1 className="my-2 px-2 w-full overflow-hidden text-black dark:text-white">Jake Renzella</h1>
-              <p className="my-2 px-2 w-full overflow-hidden text-black dark:text-white">Lecturer in the School of Computer Science and Engineering, UNSW Sydney.</p>
-              <p className="my-2 px-2 w-full overflow-hidden text-black dark:text-white">Computer Science Education, EdTech, AI4EDU.</p>
+              <h1 className="my-2 px-2 w-full overflow-hidden text-black dark:text-white">
+                Jake Renzella
+              </h1>
+              <p className="my-2 px-2 w-full overflow-hidden text-black dark:text-white">
+                Lecturer in the School of Computer Science and Engineering, UNSW
+                Sydney.
+              </p>
+              <p className="my-2 px-2 w-full overflow-hidden text-black dark:text-white">
+                Computer Science Education, EdTech, AI4EDU.
+              </p>
 
-              <h1 className="mt-8 mb-0 my-2 px-2 w-full overflow-hidden text-black dark:text-white">2022 Student Experience Teacher Report</h1>
-              <p className="italic my-2 px-2 w-full overflow-hidden text-black dark:text-white">Yes, read my entire 2022 UNSW teaching report - the good, the bad and the ugly.</p>
+              <h1 className="mt-8 mb-0 my-2 px-2 w-full overflow-hidden text-black dark:text-white">
+                Student Experience Teacher Report
+              </h1>
+              <p className="italic my-2 px-2 w-full overflow-hidden text-black dark:text-white">
+                Yes, read one of my complete UNSW teaching report - the good,
+                the bad and the ugly.
+              </p>
               {LinkData.myExperience.map((data, index) => {
-                return <div key={data.linkTitle} className="my-2 px-2 w-full overflow-hidden"><MyLink linkData={data} /></div>
+                return (
+                  <div
+                    key={data.linkTitle}
+                    className="my-2 px-2 w-full overflow-hidden"
+                  >
+                    <MyLink linkData={data} />
+                  </div>
+                )
               })}
 
-              <h1 className="mt-8 my-2 px-2 w-full overflow-hidden text-black dark:text-white">Recent Publication</h1>
+              <h1 className="mt-8 my-2 px-2 w-full overflow-hidden text-black dark:text-white">
+                Recent Publication
+              </h1>
               {LinkData.Papers.map((data, index) => {
-                return <div key={data.linkTitle} className="my-2 px-2 w-full overflow-hidden"><MyLink linkData={data} /></div>
+                return (
+                  <div
+                    key={data.linkTitle}
+                    className="my-2 px-2 w-full overflow-hidden"
+                  >
+                    <MyLink linkData={data} />
+                  </div>
+                )
               })}
 
-
-              <h1 className="mt-8 my-2 px-2 w-full overflow-hidden text-black dark:text-white">Socials</h1>
+              <h1 className="mt-8 my-2 px-2 w-full overflow-hidden text-black dark:text-white">
+                Socials
+              </h1>
               {LinkData.Socials.map((data, index) => {
-                return <div key={data.linkTitle} className="my-2 px-2 w-full overflow-hidden"><MyLink linkData={data} /></div>
+                return (
+                  <div
+                    key={data.linkTitle}
+                    className="my-2 px-2 w-full overflow-hidden"
+                  >
+                    <MyLink linkData={data} />
+                  </div>
+                )
               })}
 
-              <h1 className="mt-8 my-2 px-2 w-full overflow-hidden text-black dark:text-white">Education Tools</h1>
+              <h1 className="mt-8 my-2 px-2 w-full overflow-hidden text-black dark:text-white">
+                Education Tools
+              </h1>
               {LinkData.Education.map((data, index) => {
-                return <div key={data.linkTitle} className="my-2 px-2 w-full overflow-hidden"><MyLink linkData={data} /></div>
+                return (
+                  <div
+                    key={data.linkTitle}
+                    className="my-2 px-2 w-full overflow-hidden"
+                  >
+                    <MyLink linkData={data} />
+                  </div>
+                )
               })}
 
-              <h1 className="mt-8 my-2 px-2 w-full overflow-hidden text-black dark:text-white">UNSW Teaching</h1>
+              <h1 className="mt-8 my-2 px-2 w-full overflow-hidden text-black dark:text-white">
+                UNSW Teaching
+              </h1>
               {LinkData.Teaching.map((data, index) => {
-                return <div key={data.linkTitle} className="my-2 px-2 w-full overflow-hidden"><MyLink linkData={data} /></div>
+                return (
+                  <div
+                    key={data.linkTitle}
+                    className="my-2 px-2 w-full overflow-hidden"
+                  >
+                    <MyLink linkData={data} />
+                  </div>
+                )
               })}
 
-
-
-              <h1 className="mt-8 my-2 px-2 w-full overflow-hidden text-black dark:text-white">Academic</h1>
+              <h1 className="mt-8 my-2 px-2 w-full overflow-hidden text-black dark:text-white">
+                Academic
+              </h1>
               {LinkData.Academic.map((data, index) => {
-                return <div key={data.linkTitle} className="my-2 px-2 w-full overflow-hidden"><MyLink linkData={data} /></div>
+                return (
+                  <div
+                    key={data.linkTitle}
+                    className="my-2 px-2 w-full overflow-hidden"
+                  >
+                    <MyLink linkData={data} />
+                  </div>
+                )
               })}
 
-              <h1 className="mt-8 my-2 px-2 w-full overflow-hidden text-black dark:text-white">Development</h1>
+              <h1 className="mt-8 my-2 px-2 w-full overflow-hidden text-black dark:text-white">
+                Development
+              </h1>
               {LinkData.Development.map((data, index) => {
-                return <div key={data.linkTitle} className="my-2 px-2 w-full overflow-hidden"><MyLink linkData={data} /></div>
+                return (
+                  <div
+                    key={data.linkTitle}
+                    className="my-2 px-2 w-full overflow-hidden"
+                  >
+                    <MyLink linkData={data} />
+                  </div>
+                )
               })}
             </div>
           </main>
